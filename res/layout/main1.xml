@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff2748"
+        android:text="Practical Exam1"
+        android:textColor="#ffffffff"
+        android:textSize="30sp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Part 1"
+            android:id="@+id/btnCal"/>
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000ff"
+        android:text="Sum is..."
+        android:textColor="#ffffffff"
+        android:textSize="30sp" />
+    <TextView android:id="@+id/txtMax" android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:background="#ff0000ff" android:text="Max is..." android:textColor="#ffffffff"
+              android:textSize="30sp"/>
+    <TextView android:id="@+id/txtMin" android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:background="#ff0000ff" android:text="Min is..." android:textColor="#ffffffff"
+              android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter first value (Double)"
+        android:inputType="numberDecimal|numberSigned|number" />
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Second value (Double)"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText03" android:layout_gravity="center_horizontal"
+            android:hint="Third value (Double)"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText04" android:layout_gravity="center_horizontal"
+            android:hint="Fourth value (Double)"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText05" android:layout_gravity="center_horizontal"
+            android:hint="Fifth value (Double)"/>
+    <Button
+        android:id="@+id/btnCal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Part 2"/>
+
+</LinearLayout>
